@@ -7,14 +7,14 @@
         class="bg-image lg:tw-relative tw-w-full tw-h-full tw-flex tw-flex-col tw-text-left tw-items-center tw-bg-opacity-90 tw-px-8 tw-py-6 tw-absolute">
 
         <!-- component -->
-        <div class="tw-flex tw-flex-col tw-p-6 tw-py-8 tw-mt-12 lg:tw-m-h-screen">
+        <div class="tw-flex tw-flex-col tw-p-6 tw-py-8 lg:tw-mt-12 lg:tw-m-h-screen">
 
-          <h1 class="tw-text-white tw-font-extrabold lg:tw-text-4xl tw-mt-2 tw-mb-2 tw-w-1/2">
+          <h1 class="tw-text-white tw-font-extrabold lg:tw-text-4xl tw-mt-2 tw-mb-2 lg:tw-w-1/2">
             Exceptional Furniture Designs and Services
             Crafted for Every Corner of Your Home
           </h1>
 
-          <p class="tw-text-white tw-text-justify tw-font-medium lg:tw-text-xl tw-mt-2 tw-mb-4 tw-w-1/2">
+          <p class="tw-text-white tw-text-justify tw-font-medium lg:tw-text-xl tw-mt-2 tw-mb-4 lg:tw-w-1/2">
             At bloomwoodinteriors, we specialize in crafting furniture that cares
             for your home's unique needs. From personalized designs to limited
             editions, our collections blend functionality with timeless elegance.
@@ -31,10 +31,10 @@
 
     <!-- Welcome section -->
     <section class="tw-h-full">
-      <div class="tw-flex tw-flew-row tw-justify-between tw-p-8 tw-gap-8">
+      <div class="tw-flex tw-flex-col  lg:tw-flex-row lg:tw-justify-between tw-justify-between lg:tw-p-8 tw-gap-8">
         <div class="tw-flex tw-flex-col tw-text-left tw-px-8 tw-mt-4">
 
-          <h1 class="tw-text-black tw-font-extrabold lg:tw-text-4xl tw-mt-2 tw-mb-2">
+          <h1 class="tw-text-black tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-mt-2 tw-mb-2">
             Welcome to Bloom Wood Interiors
           </h1>
 
@@ -45,7 +45,7 @@
           </p>
 
           <button
-            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
+            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
             <div
               class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
             </div>
@@ -64,14 +64,14 @@
       </div>
 
 
-      <div class="tw-flex tw-flew-row tw-justify-between tw-p-8 tw-gap-8">
+      <div class="tw-flex tw-flex-col  lg:tw-flex-row lg:tw-justify-between lg:tw-p-8 tw-gap-8">
         <div class="tw-flex tw-flex-col tw-text-left tw-px-8 tw-mt-4">
 
-          <h1 class="tw-text-black tw-font-extrabold lg:tw-text-4xl tw-mt-4 tw-mb-2">
+          <h1 class="tw-text-black tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-mt-4 tw-mb-2">
             Furniture of the year 2023/2024
           </h1>
 
-          <p class="tw-text-black tw-text-justify tw-font-medium lg:tw-text-xl tw-mt-4 tw-mb-4 tw-w-3/4">
+          <p class="tw-text-black tw-text-justify tw-font-medium lg:tw-text-xl tw-mt-4 tw-mb-4 lg:tw-w-3/4">
             Exciting news! We've just launched our newest collection,
             even before 2023. Check it out to see the latest and greatest
             additions. Click here to dive into the styles and innovations
@@ -79,7 +79,7 @@
           </p>
 
           <button
-            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
+            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
             <div
               class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
             </div>
@@ -90,25 +90,27 @@
           </button>
         </div>
 
-        <div class="tw-3/4 tw-relative">
-          <img src="@/assets/Rectangle3.png" alt="Sales Image" class="tw-w-screen tw-h-auto" />
+        <div class="tw-relative">
+          <img src="@/assets/Rectangle3.png" alt="Sales Image" class="tw-px-8 lg:tw-px-0 lg:tw-w-screen lg:tw-h-auto" />
 
           <!-- Overlay text -->
           <div
             class="tw-absolute tw-top-1/2 tw-left-1/2 tw-transform tw--translate-x-1/2 tw--translate-y-1/2 tw-text-center">
           </div>
         </div>
+
+
       </div>
 
 
-      <div class="tw-flex tw-flew-row tw-justify-between tw-p-8 tw-gap-8">
+      <div class="tw-flex tw-flex-col  lg:tw-flex-row lg:tw-justify-between tw-justify-between tw-p-8 tw-gap-8">
 
-        <img class="tw-px-8" src="../assets/Rectangle5.png" alt="">
+        <img class="lg:tw-px-8" src="../assets/Rectangle5.png" alt="">
 
 
-        <div class="tw-w-1/2 tw-flex tw-flex-col tw-mt-4">
+        <div class="lg:tw-w-1/2 tw-flex tw-flex-col tw-mt-4">
 
-          <h1 class="tw-text-black tw-font-extrabold lg:tw-text-4xl tw-mt-4 tw-mb-2">
+          <h1 class="tw-text-black tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-mt-4 tw-mb-2">
             Discover Masterpieces, Win Elegance!
           </h1>
 
@@ -119,7 +121,7 @@
           </p>
 
           <button
-            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
+            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
             <div
               class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
             </div>
@@ -133,21 +135,21 @@
 
       </div>
 
-      <div class="tw-flex tw-flew-row tw-justify-between tw-p-8 tw-gap-8">
+      <div class="tw-flex tw-flex-col  lg:tw-flex-row lg:tw-justify-between tw-justify-between lg:tw-p-8 tw-gap-8">
         <div class="tw-flex tw-flex-col tw-text-left tw-px-8 tw-mt-4">
 
-          <h1 class="tw-text-black tw-font-extrabold lg:tw-text-4xl tw-mt-4 tw-mb-2">
+          <h1 class="tw-text-black tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-text-tw-mt-4 tw-mb-2">
             Ignite Joy, Flash Sale Delights!
           </h1>
 
-          <p class="tw-text-black tw-text-justify tw-font-medium lg:tw-text-xl tw-mt-4 tw-mb-4 tw-w-3/4">
+          <p class="tw-text-black tw-text-justify tw-font-medium lg:tw-text-xl tw-mt-4 tw-mb-4 lg:tw-w-3/4">
             We've just launched our newest collection, even before 2023. Check
             it out to see the latest and greatest additions. Click here to dive into the styles and innovations we're
             introducing.
           </p>
 
           <button
-            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
+            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
             <div
               class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
             </div>
@@ -158,8 +160,8 @@
           </button>
         </div>
 
-        <div class="tw-3/4 tw-relative">
-          <img src="@/assets/Rectangle6.png" alt="Sales Image" class="tw-w-screen tw-h-auto" />
+        <div class="tw-relative">
+          <img src="@/assets/Rectangle6.png" alt="Sales Image" class="tw-px-8 lg:tw-px-0 tw-w-screen tw-h-auto" />
 
           <!-- Overlay text -->
           <div
@@ -171,10 +173,10 @@
 
 
 
-      <div class="tw-flex tw-flew-row tw-justify-between tw-p-8 tw-gap-8">
+      <div class="tw-flex tw-flex-col  lg:tw-flex-row lg:tw-justify-between tw-justify-between tw-p-8 tw-gap-8">
 
-        <div class="tw-text-left tw-px-8 tw-relative">
-          <img src="@/assets/Rectangle7.png" alt="Sales Image" class="tw-w-full" />
+        <div class="tw-text-left lg:tw-px-8 tw-relative">
+          <img src="@/assets/Rectangle7.png" alt="Sales Image" class="lg:tw-px-8 lg:tw-px-0 lg:tw-w-full" />
 
           <!-- Overlay text -->
           <div
@@ -188,9 +190,9 @@
           </div>
         </div>
 
-        <div class="tw-w-1/2 tw-flex tw-flex-col tw-mt-4">
+        <div class="lg:tw-w-1/2 tw-flex tw-flex-col tw-mt-4">
 
-          <h1 class="tw-text-black tw-font-extrabold lg:tw-text-4xl tw-mt-4 tw-mb-2">
+          <h1 class="tw-text-black tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-mt-4 tw-mb-2">
             Craft Your Sanctuary, Save 20%!
           </h1>
 
@@ -202,7 +204,7 @@
           </p>
 
           <button
-            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
+            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
             <div
               class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
             </div>
@@ -216,20 +218,20 @@
 
       </div>
 
-      <div class="tw-flex tw-flew-row tw-justify-between tw-p-8 tw-gap-8">
+      <div class="tw-flex tw-flex-col  lg:tw-flex-row lg:tw-justify-between tw-justify-between lg:tw-p-8 tw-gap-8">
         <div class="tw-flex tw-flex-col tw-text-left tw-px-8 tw-mt-4">
 
-          <h1 class="tw-text-black tw-font-extrabold lg:tw-text-4xl tw-mt-4 tw-mb-2">
+          <h1 class="tw-text-black tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-mt-4 tw-mb-2">
             Celebrate Seasons, Free Gifts Await!
           </h1>
 
-          <p class="tw-text-black tw-text-justify tw-font-medium lg:tw-text-xl tw-mt-4 tw-mb-4 tw-w-3/4">
+          <p class="tw-text-black tw-text-justify tw-font-medium lg:tw-text-xl tw-mt-4 tw-mb-4 lg:tw-w-3/4">
             Celebrate the changing seasons with a free gift on every Seasonal Pick purchase. Discover pieces that
             resonate with every time of the year. Your stylish home awaits – claim your gift now with a simple click
           </p>
 
           <button
-            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
+            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
             <div
               class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
             </div>
@@ -241,7 +243,7 @@
         </div>
 
         <div class="tw-3/4 tw-relative">
-          <img src="@/assets/Rectangle8.png" alt="Sales Image" class="tw-w-screen tw-h-auto" />
+          <img src="@/assets/Rectangle8.png" alt="Sales Image" class="tw-px-8 lg:tw-px-0 tw-w-screen tw-h-auto" />
 
           <!-- Overlay text -->
           <div
@@ -253,8 +255,8 @@
 
       <v-divider class="tw-my-3 tw-mx-10 tw-text-black tw-bg-black"></v-divider>
 
-      <div class="tw-flex tw-flew-row tw-justify-between tw-p-8 tw-pt-0 tw-gap-8">
-        <div class="tw-px-8">
+      <div class="tw-flex tw-flex-col  lg:tw-flex-row lg:tw-justify-between tw-justify-between tw-p-8 tw-pt-0 tw-gap-8">
+        <div class="lg:tw-px-8">
           <h1 class="tw-text-black tw-text-4xl tw-font-extrabold lg:tw-text-3xltw-mb-2">
             Our Stories
           </h1>
@@ -366,11 +368,11 @@
         <!-- component -->
         <div class="tw-flex tw-flex-col tw-p-6 tw-py-8 tw-mt-12 lg:tw-m-h-screen">
 
-          <h1 class="tw-text-white tw-font-extrabold lg:tw-text-4xl tw-mt-2 tw-mb-2 tw-w-1/2">
+          <h1 class="tw-text-white tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-mt-2 tw-mb-2 lg:tw-w-1/2">
             Why invest in Bloom Wood Interiors?
           </h1>
 
-          <p class="tw-text-white tw-text-justify tw-font-medium lg:tw-text-xl tw-mt-2 tw-mb-4 tw-w-1/2">
+          <p class="tw-text-white tw-text-justify tw-font-medium lg:tw-text-xl tw-mt-2 tw-mb-4 lg:tw-w-1/2">
             a beacon of craftsmanship and innovation in interior design.
             Our commitment to quality, market resilience, sustainability,
             diverse offerings, and global presence makes us the strategic
@@ -390,7 +392,7 @@
 
     <section class="tw-p-8">
       <div class="tw-px-8">
-        <h1 class="tw-text-black tw-text-center tw-text-4xl tw-font-extrabold lg:tw-text-3xltw-mb-2">
+        <h1 class="tw-text-black tw-text-center lg:tw-text-4xl tw-text-2xl tw-font-extrabold lg:tw-text-3xltw-mb-2">
           What our customer say
         </h1>
 

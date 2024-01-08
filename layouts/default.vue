@@ -4,46 +4,39 @@
 
     <header class="tw-top-0 tw-left-0 tw-right-0 tw-bg-transparent tw-z-50">
       <nav
-        class="tw-bg-transparent tw-flex tw-flex-row tw-px-8 tw-mx-4 tw-pt-8 tw-pb-0 tw-justify-between tw-items-center">
+        class="tw-bg-transparent tw-px-4 lg:tw-px-8 lg:tw-mx-4 tw-pt-8 tw-pb-0 tw-flex tw-flex-row tw-justify-between tw-items-center">
+
         <div>
           <nuxt-link to="/">
-            <h1 class="tw-text-4xl tw-font-extrabold tw-text-black">
+            <h1 class="lg:tw-text-4xl tw-text-2xl tw-font-extrabold tw-text-black">
               BLOOMWOODINTERIORS
             </h1>
           </nuxt-link>
-
-
-        </div>
-        <div class="tw-block lg:tw-hidden">
-          <button @click="toggleMenu"
-            class="tw-flex tw-items-center tw-px-3 tw-py-2 border tw-rounded tw-border-gray-500 hover:tw-border-gray-600">
-            <svg class="tw-current-color tw-h-3 tw-w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" fill="gray" />
-            </svg>
-          </button>
         </div>
 
         <div class="tw-flex tw-gap-4">
-
           <img src="../assets/Group.svg" alt="">
           <img src="../assets/Vector.svg" alt="">
-
-
         </div>
+
 
       </nav>
-      <nav class="tw-bg-transparent tw-flex tw-flex-row  tw-px-4 tw-mx-2 tw-justify-between tw-items-center">
 
-        <div class="tw-block lg:tw-hidden">
-          <button @click="toggleMenu"
-            class="tw-flex tw-items-center tw-px-3 tw-py-2 border tw-rounded tw-border-gray-500 hover:tw-border-gray-600">
-            <svg class="tw-current-color tw-h-3 tw-w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" fill="gray" />
-            </svg>
-          </button>
-        </div>
+      <div class="tw-block lg:tw-hidden tw-px-4 tw-mt-4">
+        <button @click="toggleMenu"
+          class="tw-flex tw-items-center tw-px-3 tw-py-2 border tw-rounded tw-border-gray-500 hover:tw-border-gray-600">
+          <svg class="tw-current-color tw-h-3 tw-w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" fill="gray" />
+          </svg>
+        </button>
+      </div>
+
+
+      <nav class="tw-bg-transparent  tw-px-4 lg:tw-mx-2 tw-flex tw-flex-col lg:tw-flex-row tw-justify-between lg:tw-items-center">
+
+
         <ul
-          class="tw-tracking-wide tw-font-extrabold tw-w-full tw-block tw-flex-grow lg:tw-space-x-8 tw-space-y-6 lg:tw-space-y-0 lg:tw-flex lg:tw-flex-initial lg:tw-w-auto tw-mt-4 lg:tw-mt-0"
+          class="tw-tracking-wide tw-px-2 tw-font-extrabold tw-w-full tw-block tw-flex-grow lg:tw-space-x-8 tw-space-y-6 lg:tw-space-y-0 lg:tw-flex lg:tw-flex-initial lg:tw-w-auto tw-mt-4 lg:tw-mt-0"
           :class="{ 'tw-block': isOpen, 'tw-hidden': !isOpen }">
           <li class="tw-mb-6 lg:tw-mb-0">
             <!-- <search-input /> -->
@@ -89,7 +82,7 @@
         </ul>
 
         <div
-          class="tw-bg-white tw-items-center tw-justify-between tw-w-1/4 tw-flex tw-rounded-full tw-p-3 tw-mb-4 tw-sticky"
+          class="tw-bg-white tw-items-center tw-justify-between lg:tw-w-1/4 tw-flex tw-rounded-full tw-p-3 tw-mb-4"
           style="top: 5px">
 
           <v-text-field label="Search"></v-text-field>
@@ -110,7 +103,9 @@
 
       </nav>
 
-      <nav class="bg-color tw-flex tw-flex-row  tw-px-8 tw-gap-8 tw-py-2 tw-items-center">
+      <nav class="bg-color tw-flex tw-flex-row  tw-px-8 tw-gap-8 tw-py-2 tw-items-center"
+      
+      >
 
         <div class="tw-relative tw-inline-block tw-text-left">
           <!-- Dropdown button -->
@@ -220,11 +215,11 @@
 
 
     <footer class="tw-text-white tw-shadow-2xl tw-shadow-gray-900">
-      <div class="tw-flex tw-flex-col tw-gap-4 tw-justify-center tw-items-center">
+      <div class="tw-px-8 tw-flex tw-flex-col tw-gap-4 tw-justify-center tw-items-center">
         <h1 class="tw-text-4xl tw-font-extrabold tw-text-white tw-mt-8">
           BLOOMWOODINTERIORS
         </h1>
-        <p class="tw-text-xl tw-font-medium tw-text-white">Sign up for exclusive Product Offers and Sale Dates</p>
+        <p class="tw-text-xl tw-font-medium tw-text-white tw-text-center">Sign up for exclusive Product Offers and Sale Dates</p>
         <form class="tw-mt-2 tw-bg-transparent tw-flex tw-flex-row tw-justify-center">
 
           <div class="tw-w-3/4 tw-md:w-3/4">
@@ -240,7 +235,7 @@
             </div>
             <span class="tw-relative tw-inline-flex tw-items-center tw-gap-2 tw-text-black group-hover:tw-text-white">
               Subscribe
-          
+
             </span>
           </button>
         </form>
@@ -251,7 +246,6 @@
         <div class="tw-mx-12 tw-px-8 tw-flex tw-flex-row tw-justify-center">
 
           <v-row>
-
 
             <v-col class="tw-mt-8" cols="12" md="3" lg="3">
               <h3 class="tw-text-white tw-font-extrabold tw-mb-4 tw-uppercase">Support</h3>
@@ -339,7 +333,7 @@
         </div>
 
 
-        <ul class="tw-flex tw-flex-row tw-justify-center tw-mt-8 tw-items-center tw-gap-4">
+        <ul class="tw-flex tw-flex-row lg:tw-justify-center tw-px-20 lg:tw-px-0 tw-mt-8 tw-items-center tw-gap-4">
           <li>
             <a href="#" target="_blank" class="tw-text-white">
               <svg class="tw-bg-white tw-rounded tw-p-1" width="24" height="24" viewBox="0 0 24 24"
