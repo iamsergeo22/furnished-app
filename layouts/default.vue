@@ -32,7 +32,7 @@
       </div>
 
 
-      <nav class="tw-bg-transparent  tw-px-4 lg:tw-mx-2 tw-flex tw-flex-col lg:tw-flex-row tw-justify-between lg:tw-items-center">
+      <nav class="tw-bg-transparent  tw-px-4 tw-flex tw-flex-col lg:tw-flex-row tw-justify-between lg:tw-items-center">
 
 
         <ul

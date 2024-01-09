@@ -4,17 +4,17 @@
     <section class="">
 
       <div
-        class="bg-image lg:tw-relative tw-w-full tw-h-full tw-flex tw-flex-col tw-text-left tw-items-center tw-bg-opacity-90 tw-px-8 tw-py-6 tw-absolute">
+        class="bg-image lg:tw-relative tw-w-full tw-h-full tw-flex tw-flex-col tw-text-left tw-items-center tw-absolute">
 
         <!-- component -->
-        <div class="tw-flex tw-flex-col tw-p-6 tw-py-8 lg:tw-mt-12 lg:tw-m-h-screen">
+        <div class="bg-gradient tw-w-full tw-h-full tw-flex tw-flex-col tw-p-8 lg:tw-pt-24 tw-pt-24">
 
-          <h1 class="tw-text-white tw-font-extrabold lg:tw-text-4xl tw-mt-2 tw-mb-2 lg:tw-w-1/2">
+          <h1 class="tw-text-white tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-mt-2 tw-mb-2 lg:tw-w-1/2">
             Exceptional Furniture Designs and Services
             Crafted for Every Corner of Your Home
           </h1>
 
-          <p class="tw-text-white tw-text-justify tw-font-medium lg:tw-text-xl tw-mt-2 tw-mb-4 lg:tw-w-1/2">
+          <p class="tw-text-white tw-text-justify tw-font-medium lg:tw-text-xl tw-mt-2 lg:tw-mb-4 lg:tw-w-1/2">
             At bloomwoodinteriors, we specialize in crafting furniture that cares
             for your home's unique needs. From personalized designs to limited
             editions, our collections blend functionality with timeless elegance.
@@ -32,7 +32,7 @@
     <!-- Welcome section -->
     <section class="tw-h-full">
       <div class="tw-flex tw-flex-col  lg:tw-flex-row lg:tw-justify-between tw-justify-between lg:tw-p-8 tw-gap-8">
-        <div class="tw-flex tw-flex-col tw-text-left tw-px-8 tw-mt-4">
+        <div class="tw-flex tw-flex-col tw-text-left tw-px-8 lg:tw-px-0 tw-mt-4">
 
           <h1 class="tw-text-black tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-mt-2 tw-mb-2">
             Welcome to Bloom Wood Interiors
@@ -65,7 +65,7 @@
 
 
       <div class="tw-flex tw-flex-col  lg:tw-flex-row lg:tw-justify-between lg:tw-p-8 tw-gap-8">
-        <div class="tw-flex tw-flex-col tw-text-left tw-px-8 tw-mt-4">
+        <div class="tw-flex tw-flex-col tw-text-left tw-px-8 lg:tw-px-0 tw-mt-4">
 
           <h1 class="tw-text-black tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-mt-4 tw-mb-2">
             Furniture of the year 2023/2024
@@ -105,7 +105,7 @@
 
       <div class="tw-flex tw-flex-col  lg:tw-flex-row lg:tw-justify-between tw-justify-between tw-p-8 tw-gap-8">
 
-        <img class="lg:tw-px-8" src="../assets/Rectangle5.png" alt="">
+        <img class="" src="../assets/Rectangle5.png" alt="">
 
 
         <div class="lg:tw-w-1/2 tw-flex tw-flex-col tw-mt-4">
@@ -136,7 +136,7 @@
       </div>
 
       <div class="tw-flex tw-flex-col  lg:tw-flex-row lg:tw-justify-between tw-justify-between lg:tw-p-8 tw-gap-8">
-        <div class="tw-flex tw-flex-col tw-text-left tw-px-8 tw-mt-4">
+        <div class="tw-flex tw-flex-col tw-text-left tw-px-8 lg:tw-px-0 tw-mt-4">
 
           <h1 class="tw-text-black tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-text-tw-mt-4 tw-mb-2">
             Ignite Joy, Flash Sale Delights!
@@ -175,8 +175,8 @@
 
       <div class="tw-flex tw-flex-col  lg:tw-flex-row lg:tw-justify-between tw-justify-between tw-p-8 tw-gap-8">
 
-        <div class="tw-text-left lg:tw-px-8 tw-relative">
-          <img src="@/assets/Rectangle7.png" alt="Sales Image" class="lg:tw-px-8 lg:tw-px-0 lg:tw-w-full" />
+        <div class="tw-text-left tw-relative">
+          <img src="@/assets/Rectangle7.png" alt="Sales Image" class=" lg:tw-w-full" />
 
           <!-- Overlay text -->
           <div
@@ -219,7 +219,7 @@
       </div>
 
       <div class="tw-flex tw-flex-col  lg:tw-flex-row lg:tw-justify-between tw-justify-between lg:tw-p-8 tw-gap-8">
-        <div class="tw-flex tw-flex-col tw-text-left tw-px-8 tw-mt-4">
+        <div class="tw-flex tw-flex-col tw-text-left tw-px-8 lg:tw-px-0 tw-mt-4">
 
           <h1 class="tw-text-black tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-mt-4 tw-mb-2">
             Celebrate Seasons, Free Gifts Await!
@@ -256,7 +256,7 @@
       <v-divider class="tw-my-3 tw-mx-10 tw-text-black tw-bg-black"></v-divider>
 
       <div class="tw-flex tw-flex-col  lg:tw-flex-row lg:tw-justify-between tw-justify-between tw-p-8 tw-pt-0 tw-gap-8">
-        <div class="lg:tw-px-8">
+        <div class="">
           <h1 class="tw-text-black tw-text-4xl tw-font-extrabold lg:tw-text-3xltw-mb-2">
             Our Stories
           </h1>
@@ -292,7 +292,8 @@
 
 
                   <h1 class="tw-text-black tw-text-xl tw-font-extrabold">
-                    Discover Interior Elegance:
+                    Discover Interior <br>
+                    Elegance:
                   </h1>
                   <p class=" tw-text-black tw-text-justify tw-font-medium tw-text-md">
                     Explore our collection to create
@@ -363,16 +364,16 @@
     <section class="">
 
       <div
-        class="bg-image-1 lg:tw-relative tw-w-full tw-h-full tw-flex tw-flex-col tw-text-left tw-items-center tw-bg-opacity-90 tw-px-8 tw-py-6 tw-absolute">
+        class="bg-image-1 lg:tw-relative tw-w-full tw-h-full tw-flex tw-flex-col tw-text-left tw-items-center tw-absolute">
 
         <!-- component -->
-        <div class="tw-flex tw-flex-col tw-p-6 tw-py-8 tw-mt-12 lg:tw-m-h-screen">
+        <div class="bg-gradient tw-w-full tw-h-full tw-flex tw-flex-col tw-p-8 lg:tw-pt-24 tw-pt-24">
 
           <h1 class="tw-text-white tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-mt-2 tw-mb-2 lg:tw-w-1/2">
             Why invest in Bloom Wood Interiors?
           </h1>
 
-          <p class="tw-text-white tw-text-justify tw-font-medium lg:tw-text-xl tw-mt-2 tw-mb-4 lg:tw-w-1/2">
+          <p class="tw-text-white tw-text-justify tw-font-medium lg:tw-text-xl tw-mt-2 lg:tw-mb-4 lg:tw-w-1/2">
             a beacon of craftsmanship and innovation in interior design.
             Our commitment to quality, market resilience, sustainability,
             diverse offerings, and global presence makes us the strategic
@@ -391,8 +392,8 @@
 
 
     <section class="tw-p-8">
-      <div class="tw-px-8">
-        <h1 class="tw-text-black tw-text-center lg:tw-text-4xl tw-text-2xl tw-font-extrabold lg:tw-text-3xltw-mb-2">
+      <div class="lg:tw-px-8">
+        <h1 class="tw-text-black tw-text-center lg:tw-text-4xl tw-text-2xl tw-font-extrabold lg:tw-text-3xl tw-mb-2">
           What our customer say
         </h1>
 
@@ -545,6 +546,10 @@
 
   .bg-color-1 {
     background-color: #FFF500;
+  }
+
+  .bg-gradient {
+    background-color: rgba(0, 0, 0, 0.466);
   }
 
   .bg-image {
