@@ -4,17 +4,17 @@
     <section class="">
 
       <div
-        class="bg-image lg:tw-relative tw-w-full tw-h-full tw-flex tw-flex-col tw-text-left tw-items-center tw-absolute">
+        class="bg-image lg:tw-relative tw-w-full tw-h-full tw-flex tw-flex-col tw-items-center lg:tw-absolute">
 
         <!-- component -->
-        <div class="bg-gradient tw-w-full tw-h-full tw-flex tw-flex-col tw-p-8 lg:tw-pt-24 tw-pt-24">
+        <div class="bg-gradient tw-w-full tw-h-full tw-flex tw-flex-col tw-p-8 lg:tw-pt-24 tw-pt-36">
 
-          <h1 class="tw-text-white tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-mt-2 tw-mb-2 lg:tw-w-1/2">
+          <h1 class="tw-text-white tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-mb-2 lg:tw-w-1/2">
             Exceptional Furniture Designs and Services
             Crafted for Every Corner of Your Home
           </h1>
 
-          <p class="tw-text-white tw-text-justify tw-font-medium lg:tw-text-xl tw-mt-2 lg:tw-mb-4 lg:tw-w-1/2">
+          <p class="tw-text-white tw-text-justify tw-font-medium lg:tw-text-2xl tw-text-xl tw-mt-12 lg:tw-w-1/2">
             At bloomwoodinteriors, we specialize in crafting furniture that cares
             for your home's unique needs. From personalized designs to limited
             editions, our collections blend functionality with timeless elegance.
@@ -45,15 +45,15 @@
           </p>
 
           <button
-            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
+            class="tw-group tw-bg-white  tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
             <div
               class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
             </div>
             <span
-              class="tw-relative tw-inline-flex tw-text-xl tw-gap-4 tw-font-extrabold tw-items-center tw-text-black group-hover:tw-text-white">
+              class="tw-relative tw-inline-flex tw-text-md lg:tw-text-xl tw-gap-2 tw-font-extrabold tw-items-center tw-text-black group-hover:tw-text-white">
               About Bloomwoodinteriors
 
-              <svg width="20" height="20" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="16" height="16" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M0.0986329 8.88963L4.89732 4.98347L0.0118359 1.18642L0.586919 0.129373L6.80481 4.96198L0.697388 9.93346L0.0986329 8.88963Z"
                   fill="black" />
@@ -79,12 +79,12 @@
           </p>
 
           <button
-            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
+            class="tw-group tw-bg-white  tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
             <div
               class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
             </div>
             <span
-              class="tw-relative tw-inline-flex tw-text-xl tw-gap-4 tw-font-extrabold tw-items-center tw-text-black group-hover:tw-text-white">
+              class="tw-relative tw-inline-flex tw-text-md lg:tw-text-xl tw-gap-4 tw-font-extrabold tw-items-center tw-text-black group-hover:tw-text-white">
               Find out more
             </span>
           </button>
@@ -121,13 +121,13 @@
           </p>
 
           <button
-            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
+            class="tw-group tw-bg-white  tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
             <div
               class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
             </div>
             <span
-              class="tw-relative tw-inline-flex tw-text-xl tw-gap-4 tw-font-extrabold tw-text-black group-hover:tw-text-white">
-              Explore Now for a Chance to Win
+              class="tw-relative tw-inline-flex tw-text-md lg:tw-text-xl tw-gap-4 tw-font-extrabold tw-text-black group-hover:tw-text-white">
+              Explore Now
             </span>
           </button>
         </div>
@@ -149,13 +149,13 @@
           </p>
 
           <button
-            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
+            class="tw-group tw-bg-white  tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
             <div
               class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
             </div>
             <span
-              class="tw-relative tw-inline-flex tw-text-xl tw-gap-4 tw-font-extrabold tw-items-center tw-text-black group-hover:tw-text-white">
-              Shop Flash Sale Deals Today
+              class="tw-relative tw-inline-flex tw-text-md lg:tw-text-xl tw-gap-4 tw-font-extrabold tw-items-center tw-text-black group-hover:tw-text-white">
+              Shop Flash Sale 
             </span>
           </button>
         </div>
@@ -166,7 +166,7 @@
           <!-- Overlay text -->
           <div
             class="tw-absolute tw-top-1/2 tw-left-1/2 tw-transform tw--translate-x-1/2 tw--translate-y-1/2 tw-text-center">
-            <span class="text-color tw-uppercase tw-text-4xl tw-font-extrabold">Flash Sales</span>
+            <span class="text-color tw-uppercase tw-text-xl lg:tw-text-4xl tw-font-extrabold">Flash Sales</span>
           </div>
         </div>
       </div>
@@ -181,10 +181,10 @@
           <!-- Overlay text -->
           <div
             class="tw-flex tw-flex-col tw-absolute tw-top-1/2 tw-left-1/2 tw-transform tw--translate-x-1/2 tw--translate-y-1/2 tw-text-center">
-            <span class="text-color tw-uppercase tw-text-4xl tw-font-extrabold">20% OFF</span>
-            <span class="text-color tw-uppercase tw-text-4xl tw-font-extrabold">20% OFF</span>
-            <span class="text-color tw-uppercase tw-text-4xl tw-font-extrabold">20% OFF</span>
-            <span class="text-color tw-uppercase tw-text-4xl tw-font-extrabold">20% OFF</span>
+            <span class="text-color tw-uppercase tw-text-md lg:tw-text-2xl tw-font-extrabold">20% OFF</span>
+            <span class="text-color tw-uppercase tw-text-md lg:tw-text-2xl tw-font-extrabold">20% OFF</span>
+            <span class="text-color tw-uppercase tw-text-md lg:tw-text-2xl tw-font-extrabold">20% OFF</span>
+            <span class="text-color tw-uppercase tw-text-md lg:tw-text-2xl tw-font-extrabold">20% OFF</span>
 
 
           </div>
@@ -204,13 +204,13 @@
           </p>
 
           <button
-            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
+            class="tw-group tw-bg-white  tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
             <div
               class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
             </div>
             <span
-              class="tw-relative tw-inline-flex tw-text-xl tw-gap-4 tw-font-extrabold tw-text-black group-hover:tw-text-white">
-              PersonalizeYour Space,Save Now!
+              class="tw-relative tw-inline-flex tw-text-md lg:tw-text-xl tw-gap-4 tw-font-extrabold tw-text-black group-hover:tw-text-white">
+             Save Now!
             </span>
           </button>
         </div>
@@ -231,13 +231,13 @@
           </p>
 
           <button
-            class="tw-group tw-bg-white tw-shadow-lg tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
+            class="tw-group tw-bg-white  tw-relative tw-h-12 tw-mb-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 lg:tw-w-3/4 tw-mt-8 tw-overflow-hidden tw-text-lg">
             <div
               class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
             </div>
             <span
-              class="tw-relative tw-inline-flex tw-text-xl tw-gap-4 tw-font-extrabold tw-items-center tw-text-black group-hover:tw-text-white">
-              Shop Flash Sale Deals Today
+              class="tw-relative tw-inline-flex tw-text-md lg:tw-text-xl tw-gap-4 tw-font-extrabold tw-items-center tw-text-black group-hover:tw-text-white">
+              Buy One, Get One
             </span>
           </button>
         </div>
@@ -257,7 +257,7 @@
 
       <div class="tw-flex tw-flex-col  lg:tw-flex-row lg:tw-justify-between tw-justify-between tw-p-8 tw-pt-0 tw-gap-8">
         <div class="">
-          <h1 class="tw-text-black tw-text-4xl tw-font-extrabold lg:tw-text-3xltw-mb-2">
+          <h1 class="tw-text-black lg:tw-text-4xl tw-text-3xl tw-font-extrabold tw-mb-4 tw-mt-2">
             Our Stories
           </h1>
 
@@ -367,13 +367,13 @@
         class="bg-image-1 lg:tw-relative tw-w-full tw-h-full tw-flex tw-flex-col tw-text-left tw-items-center tw-absolute">
 
         <!-- component -->
-        <div class="bg-gradient tw-w-full tw-h-full tw-flex tw-flex-col tw-p-8 lg:tw-pt-24 tw-pt-24">
+        <div class="bg-gradient tw-w-full tw-h-full tw-flex tw-flex-col tw-p-8 lg:tw-pt-24 tw-pt-36">
 
-          <h1 class="tw-text-white tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-mt-2 tw-mb-2 lg:tw-w-1/2">
+          <h1 class="tw-text-white tw-font-extrabold lg:tw-text-4xl tw-text-2xl tw-mt-8 tw-mb-2 lg:tw-w-1/2">
             Why invest in Bloom Wood Interiors?
           </h1>
 
-          <p class="tw-text-white tw-text-justify tw-font-medium lg:tw-text-xl tw-mt-2 lg:tw-mb-4 lg:tw-w-1/2">
+          <p class="tw-text-white tw-text-justify tw-font-medium lg:tw-text-2xl tw-text-xl tw-mt-12 lg:tw-w-1/2">
             a beacon of craftsmanship and innovation in interior design.
             Our commitment to quality, market resilience, sustainability,
             diverse offerings, and global presence makes us the strategic
@@ -522,7 +522,7 @@
     },
     head() {
       return {
-        title: 'Welcome to E-pharma Platform'
+        title: 'Welcome to Furnished App'
       };
     }
   };

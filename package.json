@@ -38,6 +38,7 @@
     "vuetify": "^2.6.10"
   },
   "devDependencies": {
+    "@nuxtjs/style-resources": "^1.2.2",
     "@nuxtjs/vuetify": "^1.12.3",
     "tailwindcss": "^3.3.3"
   }
